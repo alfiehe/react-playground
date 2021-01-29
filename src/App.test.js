@@ -1,8 +1,12 @@
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
-test('renders learn react link', () => {
+test('renders App component', () => {
   render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
+
+  // 通过debug来查看组件的HTML可见输出。
+  screen.debug();
+  
+  const linkElement = screen.getByText(/Playground/i);
   expect(linkElement).toBeInTheDocument();
 });
