@@ -5,7 +5,6 @@ function HiddenMessage({ children }) {
   const [showMessage, setShowMessage] = React.useState(false);
   return (
     <section>
-      <h2>HiddenMessage</h2>
       <div>
         <label htmlFor="toggle">Show Message</label>
         <input
