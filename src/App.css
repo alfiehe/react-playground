@@ -16,6 +16,15 @@ h1 {
   padding-left: 15px;
 }
 h2 {
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: #999;
+  margin: -15px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #eee;
+  padding: 10px 15px;
+  font-weight: 400;
+}
+.demo-wrap {
+  display: flex;
+  flex-wrap: wrap;
 }
