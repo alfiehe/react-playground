@@ -1,6 +1,6 @@
 const workerCode = () => {
   onmessage = e => {
-    console.log('worker===e===', e.data);
+    // console.log('worker===e===', e.data);
 
     postMessage('I am from worker');
 

@@ -11,7 +11,7 @@ function WorkerDemo() {
 
     // worker处理的结果返回给主线程
     myWorker.onmessage = e => {
-      console.log('myWorker===e===', e.data);
+      // console.log('myWorker===e===', e.data);
 
       // 关闭worker
       // myWorker.terminate();
@@ -26,7 +26,7 @@ function WorkerDemo() {
 
   return (
     <section>
-      worker demo
+      <h2>webWorker</h2>
     </section>
   );
 }
